@@ -6,7 +6,7 @@ export default function InviteAndCopy(props) {
   //const inviteQR = inviteURL + props.params
 
 
-
+  
 
   return (
     <div className="row">

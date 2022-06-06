@@ -9,6 +9,12 @@ export default function Login() {
             <a href={loginUrl}>
                 <button>LOGIN WITH SPOTIFY</button>
             </a>
+
+            <div className="links">
+                <p>
+                    ⚠ When joining or creating a Queue, open Spotify to be able to queue up tracks
+                </p>
+			</div>
         </div>
     )
 }

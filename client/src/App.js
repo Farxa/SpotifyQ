@@ -4,16 +4,13 @@ import Login from './components/Login';
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import CreateQ from './components/CreateQ';
-import TrackSearch from './components/TrackSearch';
-import { useAuth } from "./useAuth";
-
 
 
 function App(props) {
 
   const code = new URLSearchParams(window.location.search).get('code');
-  // let accessToken = useAuth(code);
-  // console.log(accessToken);
+  
+
   return (
     // <div>
     // {code ? <Dashboard code={code}/> : <Login/>}
@@ -22,11 +19,13 @@ function App(props) {
     
     <Routes>
       
-      <Route path='/queue' element={<Dashboard code={code}/>} />
+      <Route path='queue' element={<Dashboard code={code}/>} />
       <Route path='/' element={<Home code={code}/>} />
-      <Route path='/login' element={<Login />} />
-      <Route path='/search' element={<TrackSearch />} />
-      <Route path="/:inviteCode" element={<CreateQ />} />  
+      <Route path='login' element={<Login />} />
+
+      <Route path=":inviteCode" element={<CreateQ />}
+
+      />  
         
 
       {/* <Route

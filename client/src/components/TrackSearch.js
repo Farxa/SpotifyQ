@@ -1,9 +1,7 @@
 import React from 'react';
 
 export default function TrachSearch(props) {
-//   const location = useLocation();
-//   const { handleTrackSearch, tracks, addTrackToQueue } = location.state
-// console.log("props of search", location.input);
+
 
   return (
     <div className="row">
