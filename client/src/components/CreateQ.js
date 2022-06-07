@@ -21,7 +21,7 @@ export default function CreateQ(props) {
 
 
   const { inviteCode } = useParams();
-  console.log("PARAMS:", inviteCode);
+  // console.log("PARAMS:", inviteCode);
 
   
 
@@ -42,7 +42,7 @@ export default function CreateQ(props) {
 				setMessage(message)
 			})
 		} 	
-	}, []) 
+	}, [inviteCode, props, spotifyApi]) 
 
 
 // ❗❗

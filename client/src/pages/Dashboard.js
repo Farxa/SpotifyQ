@@ -32,7 +32,6 @@ export default function Dashboard(props) {
     
   }, [accessToken]);
 
-  console.log("USER: ", name, img);
 
   const [devices, setDevices] = useState([]);
   const [selectedDevice, setSelectedDevice] = useState("");

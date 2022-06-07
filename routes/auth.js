@@ -6,7 +6,7 @@ require('dotenv').config();
 const credentials = {
     clientId: process.env.CLIENT_ID,
     clientSecret: process.env.CLIENT_SECRET,
-    redirectUri: process.env.REDIRECT_URI || "http://localhost:3000/"
+    redirectUri: process.env.REDIRECT_URI || "http://localhost:3000"
   };
    //console.log("these are the credentials:", credentials)
   

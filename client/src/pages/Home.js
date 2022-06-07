@@ -10,9 +10,9 @@ export default function Home(props) {
           <br />
           <h3>
             ⚠ Open your Spotify in the background
-            <h4>
+            <p>
               to be able to connect your device and queue up tracks when creating a Queue
-            </h4>
+            </p>
           </h3>
           <div>
             <Link to="/queue">
